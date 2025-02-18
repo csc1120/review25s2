@@ -88,7 +88,6 @@ public class ReadAndWriteWindow extends Application {
     }
 
     private void buttonPress(ActionEvent event){
-
         try{
             Button source = (Button)event.getSource();
             if(source.getText().equals("Gray")){
@@ -97,7 +96,6 @@ public class ReadAndWriteWindow extends Application {
         } catch (Exception e){
 
         }
-
     }
     private void showAlert(String msg){
         Alert alert = new Alert(Alert.AlertType.WARNING, msg);
