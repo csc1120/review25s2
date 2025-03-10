@@ -1,4 +1,4 @@
-package wk7;
+package wk7.monday;
 
 public class MyArrayList<E> {
     private static final int INITIAL_CAPACITY = 3;

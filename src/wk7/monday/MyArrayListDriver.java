@@ -1,7 +1,4 @@
-package wk7;
-
-import java.util.ArrayList;
-import java.util.List;
+package wk7.monday;
 
 public class MyArrayListDriver {
     public static void main(String[] args) {
