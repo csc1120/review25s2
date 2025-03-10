@@ -61,6 +61,8 @@ public class MyLinkedList<E> {
         //if the index is 0
         if(index == 0){
             head = head.next;
+            Node<E> ret = head;
+            return ret.element;
         } else {
             //if the size is more than 1
             Node<E> prev = getNode(index - 1);
@@ -69,6 +71,7 @@ public class MyLinkedList<E> {
             prev.next = next;
             return curr.element;
         }
+
 
     }
     public String toString(){
