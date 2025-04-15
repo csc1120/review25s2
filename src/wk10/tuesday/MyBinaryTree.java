@@ -55,7 +55,7 @@ public class MyBinaryTree<E> {
             return max;
         }
         }
-    }
+
 
     public MyBinaryTree<E> getLeftSubtree(){
         if(root != null && root.left != null){
